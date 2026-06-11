@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    
+    <!-- Elementos Etiqueta Video-->
+    <video src="/Assets/vid/joel.mp4" controls autoplay muted width="600" height="400"></video>
+    <br>
+
+    <!-- Fallback para navegadores que no soportan el elemento video -->
+    <video controls autoplay muted width="600" height="400">
+    <source src="/Assets/vid/joel.mp4" type="video/mp4">
+    <p>
+        Tu navegador no soporta el elemento de video, haz clic aquí para descargar el video. 
+        <a href="/Assets/vid/joel.mp4" download>Descargar video</a>
+    </p>
+    </video>
+
+    <!-- Establecer Poster Al Video -->
+    <video controls muted width="600" height="400" poster="/Assets/img/gandalf.jpg">
+    <source src="/Assets/vid/joel.mp4" type="video/mp4">
+    <p>
+        Tu navegador no soporta el elemento de video, haz clic aquí para descargar el video. 
+        <a href="/Assets/vid/joel.mp4" download>Descargar video</a>
+    </p>
+    </video>
+
+</body>
+</html>
